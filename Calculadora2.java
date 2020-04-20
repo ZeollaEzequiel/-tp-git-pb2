@@ -9,8 +9,8 @@ public class Ahorcado {
 		Integer opcion;
 		Integer resultado;
 		do{
-		System.out.println("Ingrese su operación /n 1 para sumar /n 2 para
-restar /n 3 para multiplicar /n 4 para dividir");
+		System.out.println("Ingrese su operación /n 3 para sumar /n 2 para
+restar /n 1 para multiplicar /n 4 para dividir");
 		opcion = teclado.next();
 		}while(opcion < 1 && opcion > 4)
 
@@ -22,7 +22,7 @@ restar /n 3 para multiplicar /n 4 para dividir");
 
    switch (a){
 	
-	 case 1: resultado = a + b;
+	 case 3: resultado = a + b;
 	
 	 break;
 	
@@ -30,7 +30,7 @@ restar /n 3 para multiplicar /n 4 para dividir");
 	
 	 break;
 	
-	 case 3: resultado = a * b;
+	 case 1: resultado = a * b;
 	
 	 break;
 	
